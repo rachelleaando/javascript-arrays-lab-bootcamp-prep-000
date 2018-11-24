@@ -13,3 +13,10 @@ function destructivelyPrependKitten (name) {
   kittens.unshift(name);
   return kittens;
 }
+
+
+//*************************************************
+function destructivelyRemoveFirstKitten (name) {
+  kittens.slice(1);
+  return kittens;
+}
